@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte: Roboto;
+    --cor-verde: rgb(142, 239, 155);
+    --cor-cinza: #e1f8e0;
+}
+
+body {
+    font-family: var(--fonte);
+}
+
+/* Primera Seção */
+.topo_pagina {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.texto_global_solution, .login {
+    margin: 20px;
+}
+
+.fa-people-group {
+    font-size: 1.0em;
+    color: var(--cor-verde);
+    padding:2px;
+}
+
+.texto_verde {
+    color: var(--cor-verde);
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+.texto_branco {
+    color:var(--cor-cinza);
+    font-size: 1.0em;
+    font-weight: 300;
+}
+
+.link_pagina {
+    text-decoration: none;
+}
+
+.quadro_1 {
+    background: linear-gradient(to bottom, #0d8f5f, #026440, #028860, #148f6f, #0e9f7d);
+    
+}
+
+
+/* Titulo Primira Seção */
+.primeira_secao_titulo {
+    margin-top: 1.0em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.2em
+}
+
+.texto_titulo {
+    font-family: var(--fonte);
+    font-weight: 200;
+    font-size: 2.0em;
+    color: var(--cor-verde);
+}
+
+.texto_branco_titulo {
+    color: var(--cor-cinza);
+}
+
+/* Descrição do Titulo */
+.descricao_titulo {
+    font-size: 1.0em;
+    font-weight: 200;
+    color: white
+}
+
+.introducao {
+    font-size: 1.0em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2.0em;
+    padding: 2em;
+    color: var(--cor-cinza)
+}
+
+.imagen_coleta_areia {
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(80, 216, 141, 0.603);
+}
+
+/* Segunda Seção - Números da ONU */
+.quadro_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3.0em;
+    padding: 2.0em;
+}
+
+.icone {
+    height: 100px;
+}
+
+.numeros_onu {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.755);
+}
+
+.descricao_icone {
+    font-size: 1.0em;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.813);
+}
+
+/* Terceira Seção - Recycle Points*/
+.quadro_3 {
+    margin: 10px;
+    padding: 20px 10px;
+    border: 1px solid var(--cor-verde);
+    background-color: #cef1e9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px; 
+}
+
+.img_sacolas {
+    height: 60vh;
+    border: 1px solid var(--cor-verde);
+    border-bottom: 4px solid var(--cor-verde);
+    border-radius: 10px;
+}
+
+.titulo_quadro {
+    font-size: 1.5em;
+    color: rgba(42, 43, 42, 0.918);
+    font-weight: 300;
+}
+
+.descricao_geral {
+    font-size: 1.0em;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.611);
+}
+.descricao_plataforma {
+    color: rgb(103, 165, 9);
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    border-bottom: 4px solid yellow;
+}
+
+/* Quarta e Quinta Seção - Quiosques, Credito de carbono e video Picth */
+.quadro_4_5_e_video {
+    margin: 40px 10px;
+    padding: 20px 10px;
+    border: 1px solid var(--cor-verde);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.quiosque_e_credito {
+    height: 30vh;
+    border-bottom: 4px solid var(--cor-verde);
+    border-radius: 10px;
+}
+
+.texto_destaque {
+    color: rgb(103, 165, 9);
+    font-weight: 400;
+}
+
+/* Sexta seção - Pontos de Coleta */
+.quadro_6 {
+    margin: 10px;
+    padding: 20px 10px;
+    border: 1px solid var(--cor-verde);
+    background-color: #cef1e9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.posto_coleta {
+    height: 180px;
+}
+
+/* Sétima seção - Formulário para contato */
+.quadro_7 {
+    margin: 40px 10px;
+    padding: 20px 20px;
+    border: 1px solid var(--cor-verde);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0em;
+    align-items: center;
+}
+
+input::placeholder{
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+
+textarea::placeholder {
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+
+.caixa_texto {
+    width: 250px;
+    height: 60px;
+    background-color: #cef1e96c;
+    border: 1px solid var(--cor-verde);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.586);
+    padding: 0px 15px;
+    font-size: 1.0em;
+}
+
+.mensagem {
+    height: 200px;
+}
+
+.botao_enviar {
+    text-decoration: none;
+    color: var(--cor-cinza);
+    font-weight: 100;
+    padding: 10px 50px;
+    font-size: 20px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #04AC80;
+}
+
+/* Oitava seção - Nome do Grupo */
+.quadro_8 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 10px;
+    padding: 20px 10px;
+    border: 1px solid var(--cor-verde);
+    text-align: center;
+    border-radius: 10px;
+}
+/* Limite de 1200px para a Página */
+main {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px; 
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+@media (min-width: 600px)  {
+    .quadro_8 {
+        border-radius: 50px;
+    }
+
+    .quadro_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+        border: 1px solid var(--cor-verde);
+        margin: 10px;
+        border-radius: 10px;
+        height: 200px;
+    }
+
+    .quadro_3, .quadro_4_5_e_video, .quadro_6 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding: 20px;
+        font-size: 1.3em;
+    }
+
+    .posto_coleta_2, .posto_coleta_3 {
+        display: none;
+    }
+
+
+    .img_sacolas {
+        height: 40vh;
+    }
+
+    .quadro_3_texto {
+        width: 40vw;
+    }
+
+    .imagen_coleta_areia {
+        width: 400px;
+
+    }
+
+    .descricao_titulo {
+        font-size: 1.5em;
+    }
+
+    .introducao {
+        font-size: 1.5em;
+    }
+
+    .quadro_8 {
+        width: 100%;
+    }
+
+    .quadro_7 {
+        display: none;
+    }
+
+    .quadro_4_5_e_video {
+        flex-direction: row-reverse;
+    }
+
+
+
+}
